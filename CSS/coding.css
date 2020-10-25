@@ -26,12 +26,12 @@ nav{
     color: white;
 }
 
-#nav-li {
+#nav-li{
     float: right;
     font-size: 16pt;
 }
   
-a {
+a{
     display: block;
     padding: 10px 20px;
     margin: 10px;
@@ -39,7 +39,7 @@ a {
     color: white;
 }
 
-a:hover{
+nav a:hover{
     background-color: #ffffff5b;
     border-radius: 40px;
 }
@@ -52,33 +52,43 @@ a:hover{
 #heading{
     font-size: 26pt;
     color:white;
+    margin-bottom: 0px;
+}
+
+#subheading{
+    margin-top: 10px;
+    font-size: 18pt;
+    color:white;
 }
 
 #des{
     text-align: center;
     list-style-type: none;
-    margin-bottom: 100px;
+    margin-bottom:60px;
 }
 
 #des-li{
-    background-color: #ffffff2c;
     margin: 10px;
     float: left;
     width: 31%;
-    height: 340px;
     font-size: 14pt;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 
-#link1, #link2, #link3{
+#link{
     color: white;
-    background-color: #ffffff6b;
-    height: 60px;
+    background-color: #ffffff2c;
+    height: 30px;
     margin: 0px;
-    padding-top: 20px;
-    font-size: 22pt;
+    padding: 20px 0px;
+    font-size: 18pt;
 }
 
+div a:hover{
+    transform: translate(1px, -2px);
+    box-shadow: 0 0 6px white;
+    transition: all 200ms ease-out;
+}
 #l-des{
     color: rgba(255, 255, 255, 0.6);
     padding: 0px 30px;
